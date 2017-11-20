@@ -1,0 +1,35 @@
+{
+  "blogs": [
+    {
+      "blogTitle": "TECHNOLOGY is Changing",
+      "blogContent": "Write anything about technology",
+      "blogCategory": "Technology",
+      "dateCreated": 1511172633667,
+      "blogUserID": 1,
+      "blogRating": 8,
+      "blogUserName": "AVINASH",
+      "id": 17
+    },
+
+    {
+      "blogTitle": "Blog 1",
+      "blogContent": "A sports blog" ,
+      "blogCategory": "Sports",
+      "dateCreated": 1511175590937,
+      "blogUserID": 3,
+      "blogRating": 6,
+      "blogUserName": "ANUBHAV",
+      "id": 22
+    },
+    {
+      "blogTitle": "my Science Blog",
+      "blogContent": "Science blog should contain about science",
+      "blogCategory": "Science",
+      "dateCreated": 1511176315010,
+      "blogUserID": 2,
+      "blogRating": 5,
+      "blogUserName": "ISHANT",
+      "id": 23
+    }
+  ]
+}

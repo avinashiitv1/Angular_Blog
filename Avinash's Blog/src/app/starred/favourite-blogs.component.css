@@ -1,0 +1,22 @@
+.heading{
+  margin-left: 400px;
+  margin-top: 25px;
+  font-size: 39px;
+  color: darkgoldenrod;
+  font-family: 'Pacifico', cursive;
+}
+
+.displayDesc{
+    font-family: 'Droid Serif', cursive;
+
+    font-size: 25px;
+    margin-left: 330px;
+    margin-top: 25px;
+    color: darkcyan;
+}
+.blogTitleDisplay{
+    font-family: "Bell MT";
+    font-size: 25px;
+    font-weight: bolder;
+    color: darkslategray;
+}

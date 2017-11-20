@@ -1,0 +1,16 @@
+.displayIcon{
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.displayButton{
+  margin-top: 20px;
+  margin-left: 20px;
+  background: midnightblue;
+
+}
+
+.display{
+  font-family: 'Handlee', cursive;
+  font-size: 20px;
+}

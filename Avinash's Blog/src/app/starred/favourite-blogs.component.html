@@ -1,0 +1,20 @@
+<div class="displayDesc">FAVOURITE BLOGS</div>
+<div *ngIf="sortedBlogs">
+<div *ngFor="let blog of sortedBlogs; let i=index">
+  <div class="row">
+    <div style= "margin-right: 30px; margin-top: 11px;" >
+      <div class="card yellow lighten-5">
+        <div class="card-content white-text">
+          <span class="card-title blogTitleDisplay">{{blog.blogTitle}}</span>
+          <p class="blogTextDisplay" style=" color :lightseagreen; font-family: 'Book Antiqua'">{{blog.blogContent}}</p>
+        </div>
+        <div class="card-action">
+          <i class="material-icons" style="color:darkblue; padding: 5px">grade</i>{{blog.blogRating}}
+          <i class="material-icons" style="color:darkblue;padding: 5px">loyalty</i>{{blog.blogCategory}}
+          <i class="material-icons" style="color:darkblue;padding: 5px">person</i>{{blog.blogUserName}}
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>

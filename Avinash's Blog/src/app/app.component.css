@@ -1,0 +1,20 @@
+.myFont{
+  font-family: Dialog;
+    color: white;
+  text-shadow: 4px 4px 4px ;
+}
+
+.logoImage{
+  height: 68px;
+  width:auto
+}
+
+body {
+    display: flex;
+    min-height: 80vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }

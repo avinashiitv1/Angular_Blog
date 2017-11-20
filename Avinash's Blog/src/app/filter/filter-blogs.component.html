@@ -1,0 +1,39 @@
+<div class="row">
+   <form class="col s12">
+     <div class="row">
+       <div class="input-field col s6">
+         <input name="blogfilter" placeholder="Enter Title or Category" id="blogcatfilter" [(ngModel)]="blogfilter" type="text" class="validate" (input)="startFilter($event.target.value)">
+          <p class="display"> {{blogfilter}} Blogs </p>
+       </div>
+       <div>
+         <p>
+           <input  name="filterchoice" value="category" required [(ngModel)]="filterBy" type="radio"  id="category"/>
+           <label class="positionradio" for="category">Category</label>
+           <input name="filterchoice" value="title" required [(ngModel)]="filterBy" type="radio" id="title" />
+           <label for="title">Title</label>
+         </p>
+       </div>
+       <button class="btn-flat btn-large positionbutton" style="background: midnightblue; color: white" (click)="getFilteredBlogs(filterBy,blogfilter)"><i class="material-icons">search</i></button>
+     </div>
+   </form>
+   </div>
+
+   <div *ngFor="let blog of filteredBlogs">
+     <div>
+     <div class="row">
+       <div class="col s12">
+         <div class="card cyan lighten-4">
+           <div class="card-content white-text">
+             <span class="card-title blogTitleDisplay">{{blog.blogTitle}}</span>
+             <p class="blogTextDisplay">{{blog.blogContent}}</p>
+             </div>
+           <div class="card-action">
+             <i class="material-icons" style="color:darkblue; padding: 5px">grade</i>{{blog.blogRating}}
+             <i class="material-icons" style="color:darkblue;padding: 5px">loyalty</i>{{blog.blogCategory}}
+             <i class="material-icons" style="color:darkblue;padding: 5px">person</i>{{blog.blogUserName}}
+           </div>
+           </div>
+         </div>
+       </div>
+
+   </div>

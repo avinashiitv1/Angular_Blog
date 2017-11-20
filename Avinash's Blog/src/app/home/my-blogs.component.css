@@ -1,0 +1,16 @@
+.display{
+  margin-left: 213px;
+}
+
+.blogTitleDisplay{
+  font-family: "Bell MT";
+  font-size: 25px;
+  font-weight: bolder;
+  color: darkslategray;
+}
+
+.blogTextDisplay{
+  font-family: "Book Antiqua";
+  font-size: 18px;
+  color: lightseagreen;
+}
